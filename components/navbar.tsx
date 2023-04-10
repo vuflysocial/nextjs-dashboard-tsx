@@ -13,8 +13,8 @@ export const MainNavbar = () => {
   return (
     <div className="fixed w-full flex items-center justify-between h-14 z-50">
       <div className="flex items-center justify-start pl-3 w-14 md:w-64 h-16 bg-white border-r">
-        <Image src={profilePic} alt="erwin agpasa" className="w-7 h-7 md:w-10 md:h-10 mr-2 rounded-full overflow-hidden" />
-        <span className="text-slate-800 hidden md:block">ErwinAgpasa <small className="hidden md:block">Administrator</small></span>
+        <Image src="/erwin.png" alt="Dashboard" className="w-7 h-7 md:w-10 md:h-10 mr-2 rounded-full overflow-hidden" width="50" height="50"/>
+        <span className="text-slate-800 hidden md:block">Dashboard <small className="hidden md:block">Administrator</small></span>
       </div>
 
       <div className="items-center bg-white border-b header-right">
