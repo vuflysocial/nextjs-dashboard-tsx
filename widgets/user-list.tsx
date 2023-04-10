@@ -43,11 +43,11 @@ export const UserList = (props: { data: any[]; }) => {
 
                   <Menu.Items className="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
                     <div className="py-1">
-                      <Menu.Item><a href="/" className="block px-4 py-2 text-sm">Manama Bahrain</a></Menu.Item>
-                      <Menu.Item><a href="/" className="block px-4 py-2 text-sm">GuangZhou China</a></Menu.Item>
-                      <Menu.Item><a href="/" className="block px-4 py-2 text-sm">Yiwu China</a></Menu.Item>
-                      <Menu.Item><a href="/" className="block px-4 py-2 text-sm">Dasmariñas Philippines</a></Menu.Item>
-                      <Menu.Item><a href="/" className="block px-4 py-2 text-sm">Valenzuela Philippines</a></Menu.Item>
+                      <Menu.Item><a href="/" className="block px-4 py-2 text-sm">...</a></Menu.Item>
+                      <Menu.Item><a href="/" className="block px-4 py-2 text-sm">...</a></Menu.Item>
+                      <Menu.Item><a href="/" className="block px-4 py-2 text-sm">...</a></Menu.Item>
+                      <Menu.Item><a href="/" className="block px-4 py-2 text-sm">...</a></Menu.Item>
+                      <Menu.Item><a href="/" className="block px-4 py-2 text-sm">...</a></Menu.Item>
                     </div>
                   </Menu.Items>
                 </Transition>
@@ -72,11 +72,11 @@ export const UserList = (props: { data: any[]; }) => {
                   </div>
                 </th>
                 <th scope="col" className="py-3 px-6">Transaction</th>
-                <th scope="col" className="py-3 px-6">Process Date</th>
-                <th scope="col" className="py-3 px-6">Origin</th>
-                <th scope="col" className="py-3 px-6">Destination</th>
-                <th scope="col" className="py-3 px-6">Status</th>
-                <th scope="col" className="py-3 px-6">Action</th>
+                <th scope="col" className="py-3 px-6">...</th>
+                <th scope="col" className="py-3 px-6">...</th>
+                <th scope="col" className="py-3 px-6">...</th>
+                <th scope="col" className="py-3 px-6">...</th>
+                <th scope="col" className="py-3 px-6">...</th>
               </tr>
             </thead>
             <tbody>
@@ -90,7 +90,7 @@ export const UserList = (props: { data: any[]; }) => {
                       </div>
                     </td>
                     <td scope="row" className="flex items-center py-4 px-6 text-gray-900 whitespace-nowrap">
-                      <Image src="/erwin.jpg" alt="Picture of the author" width={40} height={40} className="object-cover rounded-full" loading="lazy" />
+                      <Image src="/erwin.png" alt="Picture of the author" width={40} height={40} className="object-cover rounded-full" loading="lazy" />
                       <div className="pl-3">
                         <div className="text-sm font-bold text-slate-600">{content.transaction}</div>
                         <div className="text-xs text-slate-500">{content.first_name} {content.last_name}</div>
