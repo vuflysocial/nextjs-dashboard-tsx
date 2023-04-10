@@ -20,7 +20,7 @@ export const Sidebar = () => {
             </div>
           </li>
           <li>
-            <Link href="/https://meloai.netlify.app/" className="relative flex flex-row items-center h-11 text-slate-800 focus:outline-none hover:text-white hover:bg-blue-600 hover:border-blue-900 border-l-4 border-transparent  pr-6">
+            <Link href="https://meloai.netlify.app/" className="relative flex flex-row items-center h-11 text-slate-800 focus:outline-none hover:text-white hover:bg-blue-600 hover:border-blue-900 border-l-4 border-transparent  pr-6">
               <span className="inline-flex justify-center items-center ml-4">
                 <Squares2X2Icon className="h-5 w-5" aria-hidden="true" />
               </span>
@@ -28,7 +28,7 @@ export const Sidebar = () => {
             </Link>
           </li>
           <li>
-            <Link href="/https://like-melo-mint.netlify.app/" className="relative flex flex-row items-center h-11 text-slate-800 focus:outline-none hover:text-white hover:bg-blue-600 hover:border-blue-900 border-l-4 border-transparent  pr-6">
+            <Link href="https://like-melo-mint.netlify.app/" className="relative flex flex-row items-center h-11 text-slate-800 focus:outline-none hover:text-white hover:bg-blue-600 hover:border-blue-900 border-l-4 border-transparent  pr-6">
               <span className="inline-flex justify-center items-center ml-4">
                 <WalletIcon className="h-5 w-5" aria-hidden="true" />
               </span>
@@ -37,7 +37,7 @@ export const Sidebar = () => {
             </Link>
           </li>
           <li>
-            <Link href="/https://like-melo-nft-gate.vercel.app/login" className="relative flex flex-row items-center h-11 text-slate-800 focus:outline-none hover:text-white hover:bg-blue-600 hover:border-blue-900 border-l-4 border-transparent  pr-6">
+            <Link href="https://like-melo-nft-gate.vercel.app/login" className="relative flex flex-row items-center h-11 text-slate-800 focus:outline-none hover:text-white hover:bg-blue-600 hover:border-blue-900 border-l-4 border-transparent  pr-6">
               <span className="inline-flex justify-center items-center ml-4">
                 <TruckIcon className="h-5 w-5" aria-hidden="true" />
               </span>
@@ -45,7 +45,7 @@ export const Sidebar = () => {
             </Link>
           </li>
           <li>
-            <Link href="/https://staking-app-melo.herokuapp.com/" className="relative flex flex-row items-center h-11 text-slate-800 focus:outline-none hover:text-white hover:bg-blue-600 hover:border-blue-900 border-l-4 border-transparent  pr-6">
+            <Link href="https://staking-app-melo.herokuapp.com/" className="relative flex flex-row items-center h-11 text-slate-800 focus:outline-none hover:text-white hover:bg-blue-600 hover:border-blue-900 border-l-4 border-transparent  pr-6">
               <span className="inline-flex justify-center items-center ml-4">
                 <FolderOpenIcon className="h-5 w-5" aria-hidden="true" />
               </span>
@@ -55,7 +55,7 @@ export const Sidebar = () => {
           </li>
 
           <li>
-            <Link href="/https://twitter.com/meloinu" className="relative flex flex-row items-center h-11 text-slate-800 focus:outline-none hover:text-white hover:bg-blue-600 hover:border-blue-900 border-l-4 border-transparent  pr-6">
+            <Link href="https://twitter.com/meloinu" className="relative flex flex-row items-center h-11 text-slate-800 focus:outline-none hover:text-white hover:bg-blue-600 hover:border-blue-900 border-l-4 border-transparent  pr-6">
               <span className="inline-flex justify-center items-center ml-4">
                 <PrinterIcon className="h-5 w-5" aria-hidden="true" />
               </span>
@@ -64,7 +64,7 @@ export const Sidebar = () => {
           </li>
 
           <li>
-            <Link href="/https://t.me/meloinuofficial" className="relative flex flex-row items-center h-11 text-slate-800 focus:outline-none hover:text-white hover:bg-blue-600 hover:border-blue-900 border-l-4 border-transparent  pr-6">
+            <Link href="https://t.me/meloinuofficial" className="relative flex flex-row items-center h-11 text-slate-800 focus:outline-none hover:text-white hover:bg-blue-600 hover:border-blue-900 border-l-4 border-transparent  pr-6">
               <span className="inline-flex justify-center items-center ml-4">
                 <FolderOpenIcon className="h-5 w-5" aria-hidden="true" />
               </span>
@@ -74,7 +74,7 @@ export const Sidebar = () => {
           </li>
 
           <li>
-            <Link href="/https://melo-inu.gitbook.io/whitepaper/" className="relative flex flex-row items-center h-11 text-slate-800 focus:outline-none hover:text-white hover:bg-blue-600 hover:border-blue-900 border-l-4 border-transparent  pr-6">
+            <Link href="https://melo-inu.gitbook.io/whitepaper/" className="relative flex flex-row items-center h-11 text-slate-800 focus:outline-none hover:text-white hover:bg-blue-600 hover:border-blue-900 border-l-4 border-transparent  pr-6">
               <span className="inline-flex justify-center items-center ml-4">
                 <FolderOpenIcon className="h-5 w-5" aria-hidden="true" />
               </span>
