@@ -10,8 +10,8 @@ export const Overview = () => {
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 p-4 gap-4">
       <div className="bg-slate-100 rounded-md flex items-center justify-center pl-3 text-slate-700 font-medium group">
         <Link className="text-center block w-full relative " href="/">
-          <span>Logistics Dashboard</span>
-          <span className="block text-xs text-gray-500">Version 1.0.0 | Build 4</span>
+          <span>Dashboard</span>
+          <span className="block text-xs text-gray-500">Version 1.0.0 | Melo Inu</span>
         </Link>
       </div>
 
@@ -21,8 +21,8 @@ export const Overview = () => {
         </div>
 
         <div className="text-right">
-          <p className="text-2xl">1,257</p>
-          <small>Orders</small>
+          <p className="text-2xl">...</p>
+          <small>...</small>
         </div>
       </div>
 
@@ -31,8 +31,8 @@ export const Overview = () => {
           <TruckIcon className="text-slate-400 h-8 w-8" aria-hidden="true" />
         </div>
         <div className="text-right">
-          <p className="text-2xl">557</p>
-          <small>This month delivered</small>
+          <p className="text-2xl">...</p>
+          <small>...</small>
         </div>
       </div>
 
@@ -41,8 +41,8 @@ export const Overview = () => {
           <WalletIcon className="text-slate-400 h-7 w-7" aria-hidden="true" />
         </div>
         <div className="text-right">
-          <p className="text-2xl">$11,257</p>
-          <small>This month revenue</small>
+          <p className="text-2xl">...</p>
+          <small>...</small>
         </div>
       </div>
 
