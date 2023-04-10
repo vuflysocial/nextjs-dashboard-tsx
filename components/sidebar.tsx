@@ -5,7 +5,6 @@ import {
   WalletIcon,
   FolderOpenIcon,
   PrinterIcon,
-  Telegram,
   UserGroupIcon,
   CogIcon
 } from '@heroicons/react/24/outline'
