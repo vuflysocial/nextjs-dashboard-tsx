@@ -1,9 +1,5 @@
 import Link from 'next/link'
-import {
-  TruckIcon,
-  ShoppingCartIcon,
-  WalletIcon
-} from '@heroicons/react/24/outline'
+
 
 export const Overview = () => {
   return (
@@ -17,7 +13,7 @@ export const Overview = () => {
 
       <div className="bg-white rounded-md flex items-center justify-between p-3 text-slate-700 font-medium group">
         <div className="flex justify-center items-center w-14 h-14 bg-white rounded-full border transition-all duration-300 transform group-hover:rotate-12">
-          <ShoppingCartIcon className="text-slate-400 h-7 w-7" aria-hidden="true" />
+        <i className="ri-twitter-line"></i>
         </div>
 
         <div className="text-right">
@@ -28,7 +24,7 @@ export const Overview = () => {
 
       <div className="bg-white rounded-md flex items-center justify-between p-3 text-slate-700 font-medium group">
         <div className="flex justify-center items-center w-14 h-14 bg-white rounded-full border transition-all duration-300 transform group-hover:rotate-12">
-          <TruckIcon className="text-slate-400 h-8 w-8" aria-hidden="true" />
+        <i className="ri-twitter-line"></i>
         </div>
         <div className="text-right">
           <p className="text-2xl">...</p>
@@ -38,7 +34,7 @@ export const Overview = () => {
 
       <div className="bg-white rounded-md flex items-center justify-between p-3 text-slate-700 font-medium group">
         <div className="flex justify-center items-center w-14 h-14 bg-white rounded-full border transition-all duration-300 transform group-hover:rotate-12">
-          <WalletIcon className="text-slate-400 h-7 w-7" aria-hidden="true" />
+        <i className="ri-twitter-line"></i>
         </div>
         <div className="text-right">
           <p className="text-2xl">...</p>
