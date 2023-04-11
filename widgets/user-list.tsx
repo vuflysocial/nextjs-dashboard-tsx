@@ -1,5 +1,4 @@
 import { Fragment, useEffect, useState } from 'react';
-import { ChevronDownIcon, RefreshIcon } from '@heroicons/react/outline';
 import { Menu, Transition } from '@headlessui/react';
 
 interface Transaction {
