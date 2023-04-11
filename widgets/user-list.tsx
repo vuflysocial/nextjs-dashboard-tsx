@@ -50,7 +50,7 @@ function LatestTransactions() {
               <div className="flex justify-between items-center mb-4">
                 <h3 className="font-semibold text-base text-gray-900">Latest Transactions</h3>
                 <button className="text-gray-600 hover:text-gray-900" onClick={handleRefresh}>
-                  <RefreshIcon className={`h-5 w-5 ${loading ? 'animate-spin' : ''}`} />
+            
                 </button>
               </div>
               <div className="flex flex-col">
@@ -78,4 +78,3 @@ function LatestTransactions() {
 export default function UserList(props: { data: any[] }) {
   return <LatestTransactions />;
 }
-
