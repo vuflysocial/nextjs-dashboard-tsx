@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Image from 'next/image'
 import { MainNavbar } from '../components/navbar'
 import { Sidebar } from '../components/sidebar'
 import { Address } from '../widgets/address'
@@ -8,6 +9,7 @@ import UserList from '../widgets/user-list'
 import { GoogleMappage } from '../widgets/google-map'
 import { Overview } from '../widgets/overview'
 import data from "../data/profile.json";
+
 
 export default function Home() {
   return (
@@ -40,7 +42,7 @@ export default function Home() {
             <div style={{ border: '2px solid #e1e5ea', borderRadius: '10px', fontFamily: "'Helvetica Neue',Helvetica,Arial,sans-serif", minWidth: '285px' }}>      
               <div style={{ display: 'flex', padding: '12px 0px' }}>         
                 <div style={{ width: '33%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                  <img style={{ width: '46px', height: '46px' }} src="https://i.postimg.cc/G3zJ7nWj/logo.png" />
+                  <Image style={{ width: '46px', height: '46px'  }} src="https://i.postimg.cc/G3zJ7nWj/logo.png" alt= 'image' />
                 </div>       
                 <div style={{ width: '67%', border: 'none', textAlign: 'left', lineHeight: '1.4' }}>           
                   <span style={{ fontSize: '18px' }}>
