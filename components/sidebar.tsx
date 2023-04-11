@@ -20,7 +20,7 @@ export const Sidebar = () => {
     <link href="https://cdn.remixicon.com/releases/v1.3.0/remixicon.css" rel="stylesheet" />
   </Head>
           <li>
-  <Link href="https://twitter.com/meloinu" className="relative flex flex-row items-center h-11 text-slate-800 focus:outline-none hover:text-white hover:bg-blue-600 hover:border-blue-900 border-l-4 border-transparent  pr-6">
+  <Link href="https://meloai.netlify.app/" className="relative flex flex-row items-center h-11 text-slate-800 focus:outline-none hover:text-white hover:bg-blue-600 hover:border-blue-900 border-l-4 border-transparent  pr-6">
     <span className="inline-flex justify-center items-center ml-4">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M13 4.05493C17.5 4.55237 21 8.36745 21 13V22H3V13C3 8.36745 6.50005 4.55237 11 4.05493V1H13V4.05493ZM19 20V13C19 9.13401 15.866 6 12 6C8.13401 6 5 9.13401 5 13V20H19ZM12 18C9.23858 18 7 15.7614 7 13C7 10.2386 9.23858 8 12 8C14.7614 8 17 10.2386 17 13C17 15.7614 14.7614 18 12 18ZM12 16C13.6569 16 15 
     14.6569 15 13C15 11.3431 13.6569 10 12 10C10.3431 10 9 11.3431 9 13C9 14.6569 10.3431 16 12 16ZM12 14C11.4477 14 11 13.5523 11 13C11 12.4477 11.4477 12 12 12C12.5523 12 13 12.4477 13 13C13 13.5523 12.5523 14 12 14Z" fill="#000"></path>
@@ -30,7 +30,7 @@ export const Sidebar = () => {
   </Link>
 </li>
           <li>
-  <Link href="https://twitter.com/meloinu" className="relative flex flex-row items-center h-11 text-slate-800 focus:outline-none hover:text-white hover:bg-blue-600 hover:border-blue-900 border-l-4 border-transparent  pr-6">
+  <Link href="https://like-melo-mint.netlify.app/" className="relative flex flex-row items-center h-11 text-slate-800 focus:outline-none hover:text-white hover:bg-blue-600 hover:border-blue-900 border-l-4 border-transparent  pr-6">
     <span className="inline-flex justify-center items-center ml-4">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M16 21L11.2381 12.2698L15 6L23
      21H16ZM8 10L14 21H2L8 10ZM5.5 8C4.11929 8 3 6.88071 3 5.5C3 4.11929 4.11929 3 5.5 3C6.88071 3 8 4.11929 8 5.5C8 6.88071 6.88071 8 5.5 8Z" fill="#000"></path>
@@ -50,7 +50,7 @@ export const Sidebar = () => {
   </Link>
 </li>
           <li>
-  <Link href="https://twitter.com/meloinu" className="relative flex flex-row items-center h-11 text-slate-800 focus:outline-none hover:text-white hover:bg-blue-600 hover:border-blue-900 border-l-4 border-transparent  pr-6">
+  <Link href="https://like-melo-nft-gate.vercel.app/login" className="relative flex flex-row items-center h-11 text-slate-800 focus:outline-none hover:text-white hover:bg-blue-600 hover:border-blue-900 border-l-4 border-transparent  pr-6">
     <span className="inline-flex justify-center items-center ml-4">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M15.6909 12.9146L17.4587 14.6823C11.4482 20.6927 6.4985 20.6927 2.25586 19.2785L17.8122 3.72217L21.3477 7.2577L15.6909 12.9146ZM12.8625 12.9146L18.5193 
     7.2577L17.8122 6.55059L6.3145 18.0483C9.04606 18.1557 11.6722 17.1419 14.5808 14.6329L12.8625 12.9146Z" fill="#000"></path>
@@ -72,7 +72,7 @@ export const Sidebar = () => {
 
 
 <li>
-  <Link href="https://twitter.com/meloinu" className="relative flex flex-row items-center h-11 text-slate-800 focus:outline-none hover:text-white hover:bg-blue-600 hover:border-blue-900 border-l-4 border-transparent  pr-6">
+  <Link href="https://t.me/meloinuofficial" className="relative flex flex-row items-center h-11 text-slate-800 focus:outline-none hover:text-white hover:bg-blue-600 hover:border-blue-900 border-l-4 border-transparent  pr-6">
     <span className="inline-flex justify-center items-center ml-4">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M12.001 20C16.4193 20 20.001 16.4183 20.001 12C20.001 7.58172 16.4193 4 12.001 4C7.5827 4 4.00098 7.58172 4.00098 12C4.00098 16.4183 7.5827 20 12.001 20ZM12.001 22C6.47813 22 2.00098 17.5228 2.00098 12C2.00098 6.47715 6.47813 2 12.001 2C17.5238 2 22.001 6.47715 22.001 12C22.001 17.5228 17.5238 22 12.001 22ZM8.89113 13.1708L6.39308 12.3911C5.85317 12.2255 5.84996 11.854 6.51397 11.5871L16.247 7.82754C16.8115 7.59644 17.1325 7.88842 16.9495 8.61641L15.2917 16.4377C15.1763 16.9941 14.8407 17.1266 14.3759 16.8698L11.825 14.9823L10.6361 
     16.1297C10.5139 16.2476 10.4145 16.3489 10.2273 16.3743C10.04 16.3996 9.88564 16.3442 9.77337 16.0337L8.90378 13.1628L8.89113 13.1708Z" fill="#000"></path>
@@ -83,7 +83,7 @@ export const Sidebar = () => {
 </li>
 
 <li>
-  <Link href="https://twitter.com/meloinu" className="relative flex flex-row items-center h-11 text-slate-800 focus:outline-none hover:text-white hover:bg-blue-600 hover:border-blue-900 border-l-4 border-transparent  pr-6">
+  <Link href="https://melo-inu.gitbook.io/whitepaper/" className="relative flex flex-row items-center h-11 text-slate-800 focus:outline-none hover:text-white hover:bg-blue-600 hover:border-blue-900 border-l-4 border-transparent  pr-6">
     <span className="inline-flex justify-center items-center ml-4">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M17 17V19C17 19.5523 17.4477 20 18 20C18.5523 20 19 19.5523 
     19 19V4H5V15H3V3C3 2.44772 3.44772 2 4 2H20C20.5523 2 21 2.44772 21 3V19C21 20.6569 19.6569 22 18 22H4C2.34315 22 1 20.6569 1 19V17H17Z" fill="#000"></path>
