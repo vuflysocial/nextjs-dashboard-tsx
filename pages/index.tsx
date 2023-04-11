@@ -46,7 +46,7 @@ export default function Home() {
                 </div>       
                 <div style={{ width: '67%', border: 'none', textAlign: 'left', lineHeight: '1.4' }}>           
                   <span style={{ fontSize: '18px' }}>
-                    <a  rel="noreferrer href="https://coinmarketcap.com/currencies/melo/?utm_medium=widget&amp;utm_campaign=cmcwidget&amp;utm_source=www.tokenmarketcap.org&amp;utm_content=melo" target="_blank"  style={{ textDecoration: 'none', color: 'rgb(16, 112, 224)'  }}>
+                    <a  rel="noreferrer" href="https://coinmarketcap.com/currencies/melo/?utm_medium=widget&amp;utm_campaign=cmcwidget&amp;utm_source=www.tokenmarketcap.org&amp;utm_content=melo" target="_blank"  style={{ textDecoration: 'none', color: 'rgb(16, 112, 224)'  }}>
                       Melo Inu (MELO)
                     </a>
                   </span>
@@ -79,7 +79,7 @@ export default function Home() {
                                                         <span style={{ fontSize: '16px' }}>$3.473 K <span style={{ fontSize: '12px' }}>USD</span>
                                                       </span>                  </div></div>
                                                         <div style={{ borderTop: '1px solid #e1e5ea' , textAlign: 'center' , clear: 'both' , fontSize: '12px' , fontStyle: 'italic' , padding: '8px 0' }}>   
-                                                         <a  rel="noreferrer href="https://coinmarketcap.com?utm_medium=widget&amp;utm_campaign=cmcwidget&amp;utm_source=www.tokenmarketcap.org&amp;utm_content=melo" target="_blank"
+                                                         <a  rel="noreferrer" href="https://coinmarketcap.com?utm_medium=widget&amp;utm_campaign=cmcwidget&amp;utm_source=www.tokenmarketcap.org&amp;utm_content=melo" target="_blank"
                                                           style={{ textDecoration: 'none' , color: 'rgb(16, 112, 224)' }}>Powered by Melo Inu</a>  </div>
                                                           </div>
                                                           </div>
