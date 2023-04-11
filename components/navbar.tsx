@@ -10,7 +10,7 @@ function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(' ')
 }
 
-export const MainNavbar = () => {
+export const Navbar = () => {
   return (
     <div className="fixed w-full flex items-center justify-between h-14 z-50">
       <div className="flex items-center justify-start pl-3 w-14 md:w-64 h-16 bg-white border-r">
@@ -98,5 +98,3 @@ export const MainNavbar = () => {
   );
 }
 
-  );
-}
