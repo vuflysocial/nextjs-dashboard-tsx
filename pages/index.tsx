@@ -4,7 +4,7 @@ import { Sidebar } from '../components/sidebar'
 import { Address } from '../widgets/address'
 import { ContactForm } from '../widgets/contact-form'
 import { ActiveOrders } from '../widgets/active-orders'
-import { UserList } from '../widgets/user-list'
+import  UserList from '../widgets/user-list'
 import { GoogleMappage } from '../widgets/google-map'
 import { Overview } from '../widgets/overview'
 import data from "../data/profile.json";
