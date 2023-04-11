@@ -2,7 +2,8 @@ import Image from 'next/image'
 import profilePic from '../public/erwin.jpg'
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
-import { Bars3Icon, BellIcon } from '@heroicons/react/24/outline'
+
+
 
 
 function classNames(...classes: string[]) {
@@ -34,16 +35,14 @@ export const MainNavbar = () => {
                   </div>
 
                   <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                    <button type="button" className="p-1 text-slate-600 hover:text-slate-900">
-                      <BellIcon className="h-6 w-6" aria-hidden="true" />
-                    </button>
+                   
 
                     {/* Profile dropdown */}
                     <Menu as="div" className="relative ml-3">
                       <div>
                         <Menu.Button className="flex text-slate-600 text-sm focus:outline-none hover:text-gray-900">
                           <span className="sr-only">Open user menu</span>
-                          <Bars3Icon className="h-6 w-6" aria-hidden="true" />
+                          <i className="ri-twitter-line"></i>
                         </Menu.Button>
                       </div>
                       <Transition
@@ -96,5 +95,8 @@ export const MainNavbar = () => {
         </Disclosure>
       </div>
     </div>
+  );
+}
+
   );
 }
