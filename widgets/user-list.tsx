@@ -43,31 +43,15 @@ function LatestTransactions() {
     <div className="mt-4 mx-4">
       <div className="w-full overflow-hidden rounded-lg">
         {/* Body */}
-        <div className="overflow-x-auto relative">
-          <div className="flex flex-wrap items-center px-4 py-2 bg-white">
-            <div className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
-              <div className="flex justify-between items-center mb-4">
-                <h3 className="font-semibold text-base text-gray-900">Latest Transactions</h3>
-                <button className="text-gray-600 hover:text-gray-900" onClick={handleRefresh}>
-            
-                </button>
-              </div>
-              <div className="flex flex-col">
-                {latestTransactions.map((transaction, index) => (
-                  <div key={index} className="flex items-center mb-2">
-                    <div className="flex-shrink-0">
-                      <img className="h-8 w-8 rounded-full" src={`https://randomuser.me/api/portraits/men/${index + 1}.jpg`} alt="" />
-                    </div>
-                    <div className="ml-3">
-                      <p className="text-gray-900 leading-none">{transaction.from}</p>
-                      <p className="text-gray-600 text-sm">{transaction.to}</p>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
+        
+              
+        
+                  
+             
+             
+         
+       
+     
         {/* Pagination end */}
       </div>
     </div>
@@ -77,3 +61,4 @@ function LatestTransactions() {
 export default function UserList(props: { data: any[] }) {
   return <LatestTransactions />;
 }
+
