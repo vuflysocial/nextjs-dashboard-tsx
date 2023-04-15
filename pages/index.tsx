@@ -40,6 +40,8 @@ const Home: NextPage<Props> = () => {
               <div className="w-1/2">
                 <div className="embed-container">
                   <iframe width="452" height="172" frameBorder="0" scrolling="no" src="https://coinbrain.com/coins/bnb-0x5c12c812794b874fe4fdea9a4960df599c89b8e5/ticker?theme=light&padding=16&type=medium&currency=USD&blocks=price%2CmarketCap%2Cvolume24h"></iframe>
+                  <br />
+                  <div></div>
                 </div>
                 <a href="https://meloinuofficial.myshopify.com/">
                   <button className="button">SWAG</button>
