@@ -7,6 +7,17 @@
   min-height: 100vh;
 }
 
+.button {
+  padding: 10px;
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+
 .description {
   display: inherit;
   justify-content: inherit;
