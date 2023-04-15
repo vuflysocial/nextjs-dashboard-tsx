@@ -16,7 +16,7 @@ import { GoogleMappage } from '../widgets/google-map'
 import data from "../data/profile.json";
 import Stylesheet from "../styles/Home.module.css"
 import Next from"next"
-import { Binance } from "@thirdweb-dev/chains";
+
 interface Props {
   children?: React.ReactNode;
 }
