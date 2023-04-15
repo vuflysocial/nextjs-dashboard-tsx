@@ -38,8 +38,8 @@ const Home: NextPage<Props> = () => {
               <div className="w-1/2">
                 <iframe width="452" height="172" frameBorder="0" scrolling="no" src="https://coinbrain.com/coins/bnb-0x5c12c812794b874fe4fdea9a4960df599c89b8e5/ticker?theme=light&padding=16&type=medium&currency=USD&blocks=price%2CmarketCap%2Cvolume24h"></iframe>
                 <br/>
-                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onClick={() => window.location.href = "https://example.com"}>
-                  Go to Example.com
+                <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded" onClick={() => window.location.href = "https://meloinuofficial.myshopify.com/"}>
+                  Get Melo Swag
                 </button>
               </div>
             </div>
